@@ -102,6 +102,7 @@ main{
     .main{
         flex-direction: column-reverse;
         padding: 0;
+        height: 100%;
         width: 100%;
     }
 
@@ -123,6 +124,7 @@ main{
     .main{
         flex-direction: column-reverse;
         padding: 0;
+        height: 100%;
         width: 100%;
     }
 
