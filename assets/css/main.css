@@ -100,6 +100,7 @@ main{
 
 @media screen and (max-width: 768px) {
     .main{
+        border-radius: 0;
         flex-direction: column-reverse;
         padding: 0;
         height: 100%;
@@ -122,6 +123,7 @@ main{
 
 @media screen and (max-width: 375px) {
     .main{
+        border-radius: 0;
         flex-direction: column-reverse;
         padding: 0;
         height: 100%;
