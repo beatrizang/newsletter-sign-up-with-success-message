@@ -5,6 +5,7 @@ main{
     justify-content: center;
     height: 100vh;
 }
+
 .main{
     align-items: center;
     background: var(--white);
@@ -16,6 +17,10 @@ main{
 
 .main__img{
     width: 300px;
+}
+
+.main__img__mobile{
+    display: none;
 }
 
 .main__left{
@@ -88,8 +93,49 @@ main{
 
 .main__form__button:hover{
     background: linear-gradient(90deg, var(--pink), var(--tomato));
-
     box-shadow: -6px 16px 48px -18px var(--pink);
     -webkit-box-shadow: -6px 16px 48px -18px var(--pink);
     -moz-box-shadow: -6px 16px 48px -18px var(--pink);
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        flex-direction: column-reverse;
+        padding: 0;
+        width: 100%;
+    }
+
+    .main__img{
+        display: none;
+    }
+    
+    .main__img__mobile{
+        display: flex;
+    }
+
+    .main__left{
+        padding: 2rem 0;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main{
+        flex-direction: column-reverse;
+        padding: 0;
+        width: 100%;
+    }
+
+    .main__img{
+        display: none;
+    }
+    
+    .main__img__mobile{
+        display: flex;
+        width: 100%;
+    }
+
+    .main__left{
+        padding: 1.5rem;
+    }
 }
