@@ -2,6 +2,7 @@
 
 :root{
     --tomato: hsl(4, 100%, 67%);
+    --light-orange: hsla(8, 100%, 72%, 0.486);
     --orange: hsl(8, 100%, 72%);
     --dark-slate-grey: hsl(234, 29%, 20%);
     --charcoal-grey: hsl(235, 18%, 26%);

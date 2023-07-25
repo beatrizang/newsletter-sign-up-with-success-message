@@ -16,7 +16,7 @@
 </head>
 <body>
   <main>
-    <div class="main">
+    <div id="main" class="main">
       <div class="main__left">
         <h2 class="main__title">Stay updated!</h2>
         <p class="main__para">Join 60,000+ product managers receiving monthly updates on:</p>
@@ -39,21 +39,22 @@
             <label class="main__form__title">Email address</label>
             <label id="main__form__error">Valid email required</label>
           </div>
-          <input class="main__form__email" type="email" placeholder="email@company.com">
-          <input class="main__form__button" type="button" value="Subscribe to monthly newsletter">
+          <input id="main__form__email" class="main__form__email" type="email" placeholder="email@company.com">
+          <input id="main__form__button" class="main__form__button" type="button" value="Subscribe to monthly newsletter">
         </form>
       </div>
       <img class="main__img" src="./assets/images/illustration-sign-up-desktop.svg" alt="sign up image">
     </div>
-    <div class="end">
+    <div id="end" class="end">
       <img class="end__img" src="./assets/images/icon-success.svg" alt="icon success">
       <h2 class="end__title">Thanks for subscribing!</h2>
       <p class="end__para">
-        A confirmation email has been sent to <span class="end__email">ash@loremcompany.com</span>. 
+        A confirmation email has been sent to <span id="end__email" class="end__email"></span>. 
         Please open it and click the button inside to confirm your subscription.
       </p>
-      <button class="end__button">Dismiss message</button>
+      <button id="end__button" class="end__button">Dismiss message</button>
     </div>
   </main>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
