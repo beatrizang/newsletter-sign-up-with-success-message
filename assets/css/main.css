@@ -49,10 +49,21 @@ main{
     padding-top: 1rem;
 }
 
-.main__form__title{
-    color: var(--dark-slate-grey);
+.main__form__text{
+    align-items: center;
+    display: flex;
     font-weight: 600;
     font-size: 0.9rem;
+    justify-content: space-between;
+}
+
+.main__form__title{
+    color: var(--dark-slate-grey);
+}
+
+#main__form__error{
+    color: var(--tomato);
+    display: none;
 }
 
 .main__form__email{
@@ -79,6 +90,6 @@ main{
     background: linear-gradient(90deg, var(--pink), var(--tomato));
 
     box-shadow: -6px 16px 48px -18px var(--pink);
--webkit-box-shadow: -6px 16px 48px -18px var(--pink);
--moz-box-shadow: -6px 16px 48px -18px var(--pink);
+    -webkit-box-shadow: -6px 16px 48px -18px var(--pink);
+    -moz-box-shadow: -6px 16px 48px -18px var(--pink);
 }

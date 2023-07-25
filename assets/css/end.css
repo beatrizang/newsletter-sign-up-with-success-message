@@ -1,3 +1,47 @@
 .end{
+    align-items:flex-start;
+    background: var(--white);
+    border-radius: 1.5rem;
     display: none;
+    flex-direction: column;
+    padding: 2rem;
+    width: 400px;
+    text-align: left;
+}
+
+.end__img{
+    width: 50px;
+}
+
+.end__title{
+    color: var(--dark-slate-grey);
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.end__para{
+    color: var(--dark-slate-grey);
+    line-height: 1.5rem;
+}
+
+.end__email{
+    font-weight: 700;
+}
+
+.end__button{
+    background: var(--dark-slate-grey);
+    border-radius: 0.3rem;
+    color: var(--white);
+    cursor: pointer;
+    margin: 2rem 0 1rem 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.end__button:hover{
+    background: linear-gradient(90deg, var(--pink), var(--tomato));
+    box-shadow: -6px 16px 48px -18px var(--pink);
+    -webkit-box-shadow: -6px 16px 48px -18px var(--pink);
+    -moz-box-shadow: -6px 16px 48px -18px var(--pink);
 }

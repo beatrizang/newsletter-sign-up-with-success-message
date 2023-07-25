@@ -35,7 +35,10 @@
           </div>
         </div>
         <form class="main__form">
-          <label class="main__form__title">Email address</label>
+          <div class="main__form__text">
+            <label class="main__form__title">Email address</label>
+            <label id="main__form__error">Valid email required</label>
+          </div>
           <input class="main__form__email" type="email" placeholder="email@company.com">
           <input class="main__form__button" type="button" value="Subscribe to monthly newsletter">
         </form>
@@ -46,7 +49,7 @@
       <img class="end__img" src="./assets/images/icon-success.svg" alt="icon success">
       <h2 class="end__title">Thanks for subscribing!</h2>
       <p class="end__para">
-        A confirmation email has been sent to <p>ash@loremcompany.com</p>. 
+        A confirmation email has been sent to <span class="end__email">ash@loremcompany.com</span>. 
         Please open it and click the button inside to confirm your subscription.
       </p>
       <button class="end__button">Dismiss message</button>
