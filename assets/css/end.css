@@ -45,3 +45,35 @@
     -webkit-box-shadow: -6px 16px 48px -18px var(--pink);
     -moz-box-shadow: -6px 16px 48px -18px var(--pink);
 }
+
+@media screen and (max-width: 768px) {
+    .end{
+        justify-content: center;
+        height: 100%;
+        width: 100vh;
+    }
+
+    .end__img{
+        margin-top: 3rem;
+    }
+
+    .end__button{
+        margin: 15rem 0 1rem 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .end{
+        justify-content: center;
+        height: 100%;
+        width: 100vh;
+    }
+
+    .end__img{
+        margin-top: 3rem;
+    }
+
+    .end__button{
+        margin: 9rem 0 1rem 0;
+    }
+}
